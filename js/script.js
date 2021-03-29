@@ -48,4 +48,17 @@ $(document).ready(function(){
   $('.myCloseBtn').click(function(){
     $('nav').hide();
   });
+
+  $('#fashion1').click(function(){
+    //javascript to display on a targetted section
+    document.getElementById("order").innerHTML += "Fashion1" + "<br>";
+  });
+  $('#fashion2').click(function(){
+    //javascript to display on a targetted section
+    document.getElementById("order").innerHTML += "Fashion2"  + "<br>";
+  });
+  $('#fashion3').click(function(){
+    //javascript to display on a targetted section
+    document.getElementById("order").innerHTML += "Fashion3"  + "<br>";
+  });
 }); //document.ready
